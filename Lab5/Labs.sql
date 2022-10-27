@@ -137,3 +137,7 @@ create pfile = 'PDM_PFILE.ORA' from spfile;
 
 --24
 select * from v$diag_info;
+
+Select name, log_mode from v$database;
+
+select * from v$log;
